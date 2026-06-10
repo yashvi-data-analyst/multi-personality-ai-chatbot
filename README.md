@@ -1,34 +1,29 @@
 # 🤖 Multi Personality AI Chatbot
 
-![Python](https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python)
-![LangChain](https://img.shields.io/badge/LangChain-AI-green?style=for-the-badge)
-![Mistral AI](https://img.shields.io/badge/Mistral-AI-orange?style=for-the-badge)
-![Streamlit](https://img.shields.io/badge/Streamlit-UI-red?style=for-the-badge&logo=streamlit)
+<div align="center">
 
-<p align="center">
-  <b>🤖 Multi Personality AI Chatbot powered by LangChain, Mistral AI and Streamlit</b>
-</p>
+### 🎭 Chat with AI in Different Personalities
 
-<p align="center">
-  Switch between different AI personalities and experience unique conversations in real time.
-</p>
+An AI-powered chatbot built using **LangChain**, **Mistral AI**, and **Streamlit** that can respond in multiple unique personalities.
 
-<p align="center">
-  <img src="chatbot%20glimpse.png" width="900">
-</p>
+🚀 **Live Demo:**  
+https://huggingface.co/spaces/Yashvi-19/multi-personality-ai-chatbot
+
+</div>
+
+---
+
+## 📸 Chatbot Preview
+
+![Chatbot UI](chatbot%20glimpse.png)
 
 ---
 
 ## ✨ Overview
 
-A fun and interactive AI Chatbot built using:
+This project allows users to interact with an AI chatbot that can switch between multiple personalities in real time.
 
-- 🐍 Python
-- 🦜 LangChain
-- 🤖 Mistral AI
-- 🎨 Streamlit
-
-This chatbot allows users to switch between multiple AI personalities and enjoy completely different conversation styles in real time.
+Each personality has its own behavior, tone, and speaking style, creating a fun and engaging conversational experience.
 
 ---
 
@@ -37,10 +32,10 @@ This chatbot allows users to switch between multiple AI personalities and enjoy 
 | Personality | Description |
 |------------|-------------|
 | 😡 Angry | Aggressive and impatient responses |
-| 😂 Funny | Jokes, humor and fun conversations |
+| 😂 Funny | Humor, jokes, and fun conversations |
 | 😢 Sad | Emotional and dramatic replies |
 | 💪 Motivational | Positive motivation and encouragement |
-| 👨‍🏫 Teacher | Explains concepts simply and clearly |
+| 👨‍🏫 Teacher | Explains concepts simply |
 | 🔥 Roast Master | Funny and harmless roasting |
 | ❤️ Romantic | Sweet and caring conversations |
 | 😎 GenZ | Modern slang and trendy style |
@@ -51,41 +46,38 @@ This chatbot allows users to switch between multiple AI personalities and enjoy 
 
 ## 🚀 Features
 
-✅ Multi Personality Chatbot
-
-✅ Beautiful Streamlit UI
+✅ Multiple AI Personalities
 
 ✅ Real-Time AI Responses
 
-✅ Chat History Support
+✅ Interactive Streamlit Interface
 
-✅ Easy Personality Switching
+✅ Personality Switching
+
+✅ Session-Based Chat Memory
 
 ✅ Mistral AI Integration
 
-✅ Modern Dark Theme
-
-✅ User Friendly Interface
+✅ Hugging Face Deployment
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Python
-- Streamlit
-- LangChain
-- Mistral AI
-- python-dotenv
+- 🐍 Python
+- 🎨 Streamlit
+- 🦜 LangChain
+- 🧠 Mistral AI
+- 🔐 Python Dotenv
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-multi-personality-ai-chatbot
+multi-personality-ai-chatbot/
 │
 ├── UIchatbot.py
-├── chatbot.py
 ├── requirements.txt
 ├── chatbot glimpse.png
 └── README.md
@@ -93,7 +85,7 @@ multi-personality-ai-chatbot
 
 ---
 
-## 📦 Installation
+## ⚙️ Installation
 
 Clone the repository:
 
@@ -101,7 +93,7 @@ Clone the repository:
 git clone https://github.com/yashvi-data-analyst/multi-personality-ai-chatbot.git
 ```
 
-Move into the project folder:
+Move into the project directory:
 
 ```bash
 cd multi-personality-ai-chatbot
@@ -113,19 +105,13 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
----
-
-## 🔑 Environment Variables
-
-Create a `.env` file and add your Mistral API Key:
+Create a `.env` file:
 
 ```env
 MISTRAL_API_KEY=your_api_key_here
 ```
 
----
-
-## ▶️ Run the Application
+Run the application:
 
 ```bash
 streamlit run UIchatbot.py
@@ -133,56 +119,56 @@ streamlit run UIchatbot.py
 
 ---
 
-## 📸 Demo
+## 🌐 Live Demo
 
-Try prompts like:
-
-- Tell me a joke 😂
-- Motivate me 💪
-- Roast me 🔥
-- Write a shayari ✍️
-- Teach me Python 👨‍🏫
-- Talk like a pirate 🏴‍☠️
+🔗 https://huggingface.co/spaces/Yashvi-19/multi-personality-ai-chatbot
 
 ---
 
-## 💡 Future Improvements
+## 🎯 Sample Use Cases
 
-- 🎙️ Voice Assistant Integration
-- 🌐 Multiple Language Support
-- 🤖 Multiple LLM Support
-- 📄 Chat Export Feature
-- ☁️ Streamlit Cloud Deployment
-- 🧠 Long-Term Memory Support
+- AI Entertainment Chatbot
+- Personality-Based Conversations
+- Educational Assistant
+- Motivation & Coaching
+- Fun Social AI Experience
+
+---
+
+## 🚀 Future Improvements
+
+- Voice Input & Output
+- Chat History Export
+- More AI Personalities
+- Custom Personality Creation
+- Theme Customization
 
 ---
 
 ## 👩‍💻 Author
 
-### Yashvi Verma
+### Yashvi
 
-📊 Data Analyst & AI/ML Enthusiast
+AI & Data Enthusiast
 
-### Skills
-
-- Python
-- SQL
-- Power BI
-- Tableau
-- Machine Learning
-- LangChain
-- Streamlit
-
-### GitHub
-
-https://github.com/yashvi-data-analyst
-
-⭐ If you found this project useful, consider giving it a Star!
-
-🚀 Always building, always learning.
+🔗 GitHub: https://github.com/yashvi-data-analyst
 
 ---
 
-<p align="center">
-Made with ❤️ using Python, LangChain, Mistral AI and Streamlit
-</p>
+## ⭐ Support
+
+If you like this project:
+
+⭐ Star the repository
+
+🍴 Fork the project
+
+📢 Share it with others
+
+---
+
+<div align="center">
+
+### 🚀 Built with Streamlit • LangChain • Mistral AI
+
+</div>
